@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+head{
+background-color: #8b7878;
+min-height: 70px;
+border-bottom: #739900;
+}
+body{
+    font-size: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/ffeb7913-33a2-40ce-9957-e9da8b251b3a.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container{
+    width:80%;
+    height: 100vh;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color:#fff;
+    padding: 10px;
+    font-size: 75px;
+}
+.content-table{
+    
+ border-collapse: collapse;
+ margin: 25px 0;
+ min-width: 500px;
+ border-radius: 3px 3px 0 0;
+ overflow: hidden;
+ box-shadow: 0 0 50px #73990096;
+}
+.content-table thead tr{
+    background-color: #739900;
+    color: #fff;
+    text-align:left ;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.content-tableb th,
+.content-table td{
+    color: #fff; 
+    padding:7px 9px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #fff;
+     
+}
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f34b;  
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 4px  solid #739900;
+}
+
+
+.content-tablenr2{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 500px;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 50px #73990096;
+   }
+   .content-tablenr2 thead tr{
+       background-color: #739900;
+       color: #fff;
+       text-align:left ;
+       font-weight: bold;
+       font-size:20px;
+   }
+   
+   .content-tablenr2 th,
+   .content-tablenr2 td{
+       color: #fff; 
+       padding:7px 9px;
+   }
+   
+   .content-tablenr2 tbody tr{
+       border-bottom: 1px solid #fff;
+        
+   }
+   .content-tablenr2 tbody tr:nth-of-type(even){
+     background-color: #f3f3f34b;  
+   }
+   .content-tablenr2 tbody tr:last-of-type{
+       border-bottom: 4px  solid #739900;
+   }
+
+
+   .tabele{
+       margin: 40px;
+      display:grid ;
+      grid-template-columns: auto auto;
+      column-gap: 70px;
+   }
+   .footer-info{
+    font-size:24px;
+    font-family: 'serif';
+}
+
+footer {
+    text-align:center;
+    background-color: #739900;
+    color: #fff;
+    padding: 20px;
+}
+
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    color:#584D3D;
+}
+.logo-app{
+    margin-left: 30px; 
+    width: 50px;
+    align-items: center;
+}
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+
+}

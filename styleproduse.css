@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+head{
+background-color: #8b7878;
+min-height: 70px;
+border-bottom: #739900;
+}
+body{
+    font-size: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/ffeb7913-33a2-40ce-9957-e9da8b251b3a.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container{
+    width:80%;
+    height: 100vh;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size: 13px;
+}
+h1{
+    color:#fff;
+    font-size: 100px;
+    margin-bottom:10px;
+}
+p{
+    color:#fff;
+    font-size:11px;
+    line-height: 15px;
+}
+.container{
+     text-align:center;
+    color: rgb(7, 7, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-info{
+    font-size:24px;
+    font-family: 'serif';
+}
+
+footer {
+    text-align:center;
+    background-color: #584D3D;
+    color: #fff;
+    padding: 20px;
+}
+
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    color:#584D3D;
+}
+.logo-app{
+    margin-left: 30px; 
+    width: 50px;
+    align-items: center;
+}
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
+h3{
+     float:left;
+     font-size: 30px;
+     color: aliceblue;
+     margin:auto;
+    }
+
+.imagini{
+    border-radius: 10px;
+}
+
+
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    color:#584D3D;
+}
+.logo-app{
+    margin-left: 30px; 
+    width: 50px;
+    align-items: center;
+}
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+
+}
+.produse-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+} 
+
+
+.img-limbaj{
+    max-height: 350px;
+    transition: all linear 0.5s;
+}
+
+.img-limbaj:hover {
+    transform: scale(1.1);
+    transition: all linear 0.5s;
+}

@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+head{
+background-color: #8b7878;
+min-height: 70px;
+border-bottom: #739900;
+}
+body{
+    font-size: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/ffeb7913-33a2-40ce-9957-e9da8b251b3a.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container{
+    width:80%;
+    height: 100vh;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left: 40px;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size: 13px;
+}
+
+p{
+    color:#fff;
+    font-size:11px;
+    line-height: 15px;
+}
+.footer-info{
+    font-size:24px;
+    font-family: 'serif';
+}
+
+footer {
+    text-align:center;
+    background-color:#584D3D;
+    color: #fff;
+    padding: 20px;
+}
+
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    color:#584D3D;
+}
+.logo-app{
+    margin-left: 30px; 
+    width: 50px;
+    align-items: center;
+}
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
+.items{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+.item img{
+    margin: 60px;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0,2s ease-in;
+    border-radius: 10px;
+    grid-area: auto;
+    overflow: hidden;
+    box-shadow: 0 0 50px #ffffff83;
+    row-gap: 40px;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+p{
+  background: #584d3d79;
+  color:#fff;
+  font-size:30px;
+  line-height:25px;
+ padding: 3%;
+}
+
+h1{
+    text-align: center;
+    color:#fff;
+    padding: 10px;
+    font-size: 75px;
+
+}
+
+@media screen and (max-width:1000px){
+    .items{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:768px){
+    .items{
+        grid-template-columns: auto;
+    }
+}
